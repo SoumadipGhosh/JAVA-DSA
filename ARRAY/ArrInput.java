@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrInput {
@@ -12,12 +13,14 @@ public class ArrInput {
         }
 
         // Print array values
-        System.out.print("Array elements: ");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
 
-        
+        System.out.println(Arrays.toString(arr));
+        // System.out.print("Array elements: ");
+        // for (int i = 0; i < arr.length; i++) {
+        //     System.out.print(arr[i] + " ");
+        // }
+
+         
     }
 }
 
